@@ -1,0 +1,21 @@
+﻿Label,Text
+FIFO_A,fifo is implemented
+CDC_A,signal is sampled among destination clock domain
+CDC_A,asynchronous
+ARB_A,one of the CCI master is given priority
+PROT_A,valid should be asserted till ready comes back
+FIFO_A,fifos are present in the design
+CDC_A,signal crosssing
+CDC_A,two different clock
+ARB_A,arbiter is fair
+PROT_A,valid should be stable
+FIFO_A,first in first out
+CDC_A,at two different clock frequency
+CDC_A,clock domain
+ARB_A,arbiter should only give grant to one master
+PROT_A,ack should come back in 10 cycles
+FIFO_A,data should be served in order
+CDC_A,all the clock should be synchronized in destin...
+CDC_A,metastability
+ARB_A,liveliness and deadlock
+PROT_A,response shouldn’t be asserted before wlast
