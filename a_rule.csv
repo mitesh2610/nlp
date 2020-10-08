@@ -15,7 +15,7 @@ CDC_A,clock domain
 ARB_A,arbiter should only give grant to one master
 PROT_A,ack should come back in 10 cycles
 FIFO_A,data should be served in order
-CDC_A,all the clock should be synchronized in destin...
+CDC_A,all the clock should be synchronized in destination
 CDC_A,metastability
 ARB_A,liveliness and deadlock
 PROT_A,response shouldn’t be asserted before wlast
